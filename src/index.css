@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.char{
+  color: black;
+
+}
+
+.catpic{
+  width: 200px;
+  height: 200px;
+}
+
+
+.mainHeader {
+
+  background-color: blue;
+  animation: ani 10000ms ease-in-out infinite;
+
+}
+
+.swCharTitle {
+  font-family: Roboto;
+  color: white;
+}
+
+.apiData{
+  background-color: #eefeee;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.loader{
+  animation: ani2 800ms ease-in-out infinite;
+}
+
+@keyframes ani{
+
+  0% {background-color: lightblue;}
+  25% {background-color: black;}
+  50% {background-color: lightblue;}
+  100% {background-color: grey;}
+
+}
+
+@keyframes ani2{
+  0% {color: darkblue;}
+  25% {color: pink;}
+  50% {color: blue;}
+  100% {color: orange;}
+}
